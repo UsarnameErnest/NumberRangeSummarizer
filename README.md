@@ -1,6 +1,6 @@
 
 The code accepts input of comma delimited list of numbers
-and groups the numbers into a range when they are sequential.
+and group the numbers into a range when they are sequential.
 
 Expected Input/Output:
 
