@@ -2,8 +2,22 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 import java.util.Arrays;
 import java.util.Collection;
+import static org.junit.Assert.assertEquals;
 
 public class NumberSummarizerImplTest {
+    
+    @Test
+    public void testErrorHandler() {
+        NumberSummarizerImpl nr = new NumberSummarizerImpl();
+        String input = "1,3,6,7,8,12,13,14,15,21,22,23,24,31,A";
+
+        try {
+            nr.collect(input);
+        } catch (NumberFormatException e) {
+            assertEquals("For input string: \"A\"", e.getMessage());
+        }
+    }
+
 
     @Test
     public void testCollect() {
