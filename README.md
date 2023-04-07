@@ -1,18 +1,33 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+The code ccepts input of comma delimited list of numbers
+and groups the numbers into a range when they are sequential.
 
-## Folder Structure
+Expected Input/Output
+Input: "1,3,6,7,8,12,13,14,15,21,22,23,24,31"
 
-The workspace contains two folders by default, where:
+Output: "1, 3, 6-8, 12-15, 21-24, 31"
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Java Version
+Java 8
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Platform: Visual Studio Code
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Unit test : Junit 
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
