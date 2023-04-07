@@ -1,5 +1,5 @@
 
-The code ccepts input of comma delimited list of numbers
+The code accepts input of comma delimited list of numbers
 and groups the numbers into a range when they are sequential.
 
 Expected Input/Output:
