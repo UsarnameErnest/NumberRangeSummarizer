@@ -1,12 +1,12 @@
 
-package com.numberRangeSummarizer;
+package numberrangesummarizer;
 
 import java.util.Collection;
 import java.util.List;
 
-/**
- * @author Werner
- *
+//Instructions !!
+
+ /*
  * Implement this Interface to produce a comma delimited list of numbers,
  * grouping the numbers into a range when they are sequential.
  *
@@ -37,8 +37,8 @@ public interface NumberRangeSummarizer {
 
 
 
-public class App {
-    public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
-    }
-}
+
+
+    
+    
+
